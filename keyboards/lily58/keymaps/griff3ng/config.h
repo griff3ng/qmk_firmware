@@ -50,3 +50,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_ANIMATIONS
 #define RGBLIGHT_SLEEP
 */
+
+// KMS added Encoder
+/*
+#ifdef ENCODER_ENABLE
+    #define ENCODER_DIRECTION_FLIP
+    #define ENCODERS_PAD_A { F4 }
+    #define ENCODERS_PAD_B { F5 }
+    #define ENCODER_RESOLUTION 4
+#endif
+*/
