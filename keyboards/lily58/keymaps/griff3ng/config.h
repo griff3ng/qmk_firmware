@@ -33,15 +33,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define USE_SERIAL_PD2
 
 #define TAPPING_FORCE_HOLD
-#define TAPPING_TERM 100
+// modified from 100 to 150 for LCTL and and CAPS LOCK mod
+#define TAPPING_TERM 150
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
-#define RGBLED_NUM 27
+#define RGBLIGHT_SPLIT
+#define RGBLED_NUM 14
+#define RGBLED_SPLIT { 7, 7}
 #define RGBLIGHT_LIMIT_VAL 120
 #define RGBLIGHT_HUE_STEP 10
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
+//#define RGBLIGHT_SLEEP
+//#define RGBLIGHT_SPLIT
 
 // Underglow
 /*
